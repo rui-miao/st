@@ -1,10 +1,21 @@
+Xft.dpi:       144
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+!! Transparency
+*.alpha: 255
+emacs.alpha: 100
 !! Transparency (0-1):
-st.alpha: 0.92
+st.alpha: 1
 
 !! Set a default font and font size as below:
-st.font: Monospace-11;
+! st.font: Monospace-11;
+st.font: iosevka:pixelsize=27:antialias=true:autohint=true
 
-! st.termname: st-256color
+st.termname: st-256color
 ! st.borderpx: 2
 
 !! Set the background, foreground and cursor colors as below:
